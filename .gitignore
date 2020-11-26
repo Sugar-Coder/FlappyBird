@@ -4,7 +4,7 @@ target/
 *.zip
 *.tar
 *.tar.gz
-
+FlappyBird-1.0-SNAPSHOT.jar
 # eclipse ignore
 .settings/
 .project
