@@ -59,7 +59,7 @@ public class MusicUtil {
 //            InputStream crashIn = new FileInputStream("resources/wav/crash.wav");
 //            crash = new AudioStream(crashIn);
             // Use javax.sound
-            File musicFile = new File("resources/wav/fly.wav");
+            File musicFile = new File("resources/wav/crash.wav");
             crash = AudioSystem.getAudioInputStream(musicFile);
             // Get a sound clip resource.
             Clip clip = AudioSystem.getClip();
@@ -85,7 +85,7 @@ public class MusicUtil {
 //            InputStream scoreIn = new FileInputStream("resources/wav/score.wav");
 //            score = new AudioStream(scoreIn);
             // Use javax.sound
-            File musicFile = new File("resources/wav/fly.wav");
+            File musicFile = new File("resources/wav/score.wav");
             score = AudioSystem.getAudioInputStream(musicFile);
             // Get a sound clip resource.
             Clip clip = AudioSystem.getClip();

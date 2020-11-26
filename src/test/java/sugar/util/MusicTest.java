@@ -17,7 +17,7 @@ public class MusicTest extends JFrame {
 
         try {
             // Open an audio input stream.
-            File musicFile = new File("resources/wav/fly.wav");
+            File musicFile = new File("resources/wav/score.wav");
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(musicFile);
             // Get a sound clip resource.
             Clip clip = AudioSystem.getClip();
